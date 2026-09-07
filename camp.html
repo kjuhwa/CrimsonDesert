@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>캠프 &amp; 미니게임 — 붉은 사막</title>
+<meta name="description" content="붉은 사막(Crimson Desert) 회색갈기 캠프 운영(동료 영입·파견 미션·시설·마차 제작)과 미니게임 전체 공략">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo en" href="index.html">CRIMSON DESERT</a>
+    <a href="index.html">홈</a>
+    <a href="quests.html">퀘스트</a>
+    <a href="sidequests.html">사이드 퀘스트</a>
+    <a href="items.html">아이템</a>
+    <a href="bosses.html">보스</a>
+    <a href="regions.html">지역</a>
+    <a href="skills.html">스킬</a>
+    <a href="mounts.html">탈것</a>
+    <a href="collectibles.html">수집품</a>
+    <a href="camp.html" class="active">캠프</a>
+    <a href="#members">동료</a>
+    <a href="#expansion">확장·파견</a>
+    <a href="#facilities">시설·마차</a>
+    <a href="#minigames">미니게임</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <span class="hero-kicker en">Camp &amp; Minigames</span>
+  <h1>캠프 &amp; 미니게임</h1>
+  <div class="hero-en en">GREYMANE CAMP MANAGEMENT</div>
+  <p class="hero-desc">황량한 언덕을 마을로 키우는 회색갈기 캠프 운영법과, 팔씨름부터 섯다·경마까지 미니게임 전체 공략.</p>
+</header>
+
+<main>
+
+<section id="camp-overview">
+  <h2>회색갈기 캠프 개요</h2>
+  <div class="sub en">Greymane Camp — Howling Hill</div>
+  <div class="scores">
+    <div class="score"><div class="num red">3장</div><div class="lbl">캠프 개설 (A Fresh Start)</div></div>
+    <div class="score"><div class="num">~40명</div><div class="lbl">모집 가능 동료</div></div>
+    <div class="score"><div class="num">27개</div><div class="lbl">회색갈기 의뢰 (+81 인벤 슬롯)</div></div>
+    <div class="score"><div class="num red">12종</div><div class="lbl">파견 임무 유형</div></div>
+  </div>
+  <p class="lead">
+    3장에서 Marquis Serkis에게 토지를 하사받아 Hernand 남쪽 <strong>Howling Hill</strong>에 캠프를 세웁니다
+    (보급 자루 옮기기·마차 밀기·말뚝 박기·깃발 게양). 이후 모든 확장·시설·모집은
+    <strong>'Grounds of the Sunrise' 세력 퀘스트 체인</strong>(회색갈기 의뢰 + 소문 미션)으로 열립니다.
+    <strong>회색갈기 의뢰 27개는 각각 Medium Bag(+3 슬롯)</strong>을 줘서 총 +81 인벤토리 슬롯 — 최우선 사이드 콘텐츠입니다.
+  </p>
+</section>
+
+<section id="members">
+  <h2>운영 NPC &amp; 파견 동료</h2>
+  <div class="sub en">Camp Members</div>
+  <h3>핵심 운영 NPC</h3>
+  <div class="tbl-wrap" style="margin-bottom:28px">
+    <table class="items">
+      <thead><tr><th>이름</th><th>영입 조건</th><th>역할</th></tr></thead>
+      <tbody>
+        <tr><td>Marius</td><td>캠프 개설 시 합류</td><td>캠프 총괄 — 확장 프로젝트·모집 퀘스트 부여</td></tr>
+        <tr><td>Carl</td><td>개설 직후</td><td>보급 관리 — Supply Chest(240슬롯), 자원 기부 풀 5종, <strong>자원 1,000개 → 포장 상품 1개</strong> 변환(수수료 100)</td></tr>
+        <tr><td>Ross</td><td>개설 직후</td><td>파견 코디네이터 — 파견 임무·용병 배치 관리</td></tr>
+        <tr><td>Brice</td><td>'A Rumor in Glenbright Farm'</td><td><strong>마차 관리인(Wagonmaster)</strong> — 마차 배치·적재·건조 발주, Engineering 임무 해금</td></tr>
+        <tr><td>Arnold</td><td>'A Rumor in St. Halssius'</td><td>기술자(Engineer) — 마차 건조 체인 필수</td></tr>
+        <tr><td>Ronnie</td><td>'Embers of Return' 계열</td><td><strong>요리사</strong> — 취사장 설치, 식재료 판매 + 매일 조리 음식 제공</td></tr>
+        <tr><td>Tranan</td><td>'Embers of Return' 계열</td><td><strong>대장장이</strong> — 장비 매입, 정제 아이템·탄약 판매</td></tr>
+        <tr><td>Eric / Oliver</td><td>회색갈기 세력 퀘스트</td><td>이발사(외형 변경) / 염색 상인</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>파견 동료 (소문 미션으로 모집)</h3>
+  <div class="tbl-wrap">
+    <table class="items">
+      <thead><tr><th>동료</th><th>모집 경로</th><th>보유 스킬</th></tr></thead>
+      <tbody>
+        <tr><td>Luke · Ronald · Anders</td><td>시작 멤버 / 자동 합류</td><td>Construction · Rancher · Logger</td></tr>
+        <tr><td>Aldric · Fritz · Otto · Silvan</td><td>A Rumor at Hills of No Return</td><td>Construction/Farmer · Logger/Rancher · Miner/Engineer · Escort/Smith</td></tr>
+        <tr><td>Balder · Ryan</td><td>A Rumor at Hook Rapids</td><td>Escort · Fisherman</td></tr>
+        <tr><td>Devan · Evelyn · Pierce</td><td>A Rumor in Ivynook</td><td>Farmer/Explorer · Farmer · Logger/Craftsman</td></tr>
+        <tr><td>Duncan · Falstaff · Luther · Terry</td><td>A Rumor in Calphade</td><td>Miner · Engineer/Fisherman/Explorer · Rancher/Fisherman · Farmer/Engineer</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="lead" style="margin-top:16px">
+    스킬 종류는 Builder·Farmer·Smith·Rancher·Logger·Miner·Engineer·Escort·Fisherman·Craftsman·Jeweler·Cook·Explorer·Painter·Weaver 등이며,
+    임무의 요구 스킬과 매칭하면 보상 보너스가 붙습니다.
+  </p>
+</section>
+
+<section id="expansion">
+  <h2>확장 단계 &amp; 파견 임무</h2>
+  <div class="sub en">Expansion &amp; Dispatch</div>
+  <h3>캠프 확장 단계</h3>
+  <div class="tbl-wrap" style="margin-bottom:28px">
+    <table class="items">
+      <thead><tr><th>단계</th><th>조건</th><th>해금</th></tr></thead>
+      <tbody>
+        <tr><td>1차 (3장)</td><td>동료 2명 · Food 100 · Silver 250 · <strong>게임 내 18시간</strong>(수면으로 단축)</td><td>파견 시스템 · 모집 슬롯 · Marius 신규 퀘스트</td></tr>
+        <tr><td>2차</td><td>동료·자원 증가 (수치 미확인)</td><td><strong>농장·목장</strong> 건설 (해금 즉시 사과나무 식재 권장)</td></tr>
+        <tr><td>3차</td><td>동료·자원 증가 (수치 미확인)</td><td>임무 슬롯 추가 · 시설 업그레이드</td></tr>
+        <tr><td>4차 (최대 병목)</td><td>동료 10명 · Armaments 1,500 · Stone 2,500 · Timber 2,500 · Food 4,000 · <strong>Silver 100,000</strong></td><td><strong>마차 · 열기구(Cloudcart) · 고급 제작</strong></td></tr>
+        <tr><td>파일룬 재건 (7장~)</td><td>파일룬 해방 후</td><td>북부 재건 프로젝트 — Pailune Council·Institute, 캠프의 마을화. 캠프 이전 시 'Proud Returnee' 트로피</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="lead">💡 후반 병목은 <strong>Armaments</strong> — 10장 이후 <strong>Gorthak Ironworks 파견</strong>으로 수천 개를 수급할 수 있습니다.</p>
+
+  <h3>파견 임무 유형 (12종)</h3>
+  <div class="tbl-wrap" style="margin-bottom:28px">
+    <table class="items">
+      <thead><tr><th>유형</th><th>산출물</th></tr></thead>
+      <tbody>
+        <tr><td>건설 (Construction)</td><td>캠프 XP — 확장 진행</td></tr>
+        <tr><td>수확·농사 / 목축 / 낚시</td><td>Food·교역품·Silver (Sin Volt Ranch는 사이클당 고기 50+)</td></tr>
+        <tr><td>채광 / 벌목</td><td>Stone·광석 / Timber + Silver</td></tr>
+        <tr><td>호위·경비 (Escort)</td><td><strong>지속 실버 수입원</strong> — 상시 가동 권장</td></tr>
+        <tr><td>거점 탈환</td><td>지역 적 전투력 감소</td></tr>
+        <tr><td>유적 파견</td><td>특수·희귀 재료</td></tr>
+        <tr><td>연금술 / 공학 / 공예 생산</td><td>포션·보급품 / 특수 아이템·마차 부품(Engineer 필요) / Painter·Weaver·Jeweler 계열</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid c3">
+    <div class="card">
+      <span class="tag gold">보정</span>
+      <h3>📈 보상 보너스 규칙</h3>
+      <p>최소 인원 초과 투입 시 <strong>1인당 +20%</strong>, 요구 스킬 매칭 시 <strong>최대 +40%</strong>, 교회 헌금함 기부 시 주변 지역 임무에 레벨당 +2% 축복.</p>
+    </div>
+    <div class="card">
+      <span class="tag">운영</span>
+      <h3>🔄 최적 로테이션</h3>
+      <p>① 동료를 절대 놀리지 않기 ② Food 0 방지(거의 모든 임무가 식량 소모) ③ Escort 상시 가동 ④ 실버 스팟: Oakenshield Manor·Sungrove Manor 등 ⑤ 식량: Capra Pasture·Sin Volt Ranch.</p>
+    </div>
+    <div class="card">
+      <span class="tag">시간</span>
+      <h3>🛏️ 수면으로 빨리감기</h3>
+      <p>캠프 침대에서 <strong>최대 12시간 수면</strong>으로 파견 타이머를 앞당길 수 있습니다. 4차 확장 전에 Armaments를 미리 비축하세요.</p>
+    </div>
+  </div>
+</section>
+
+<section id="facilities">
+  <h2>시설 &amp; 마차 제작</h2>
+  <div class="sub en">Facilities &amp; Wagons</div>
+  <div class="tbl-wrap" style="margin-bottom:28px">
+    <table class="items">
+      <thead><tr><th>시설</th><th>내용</th></tr></thead>
+      <tbody>
+        <tr><td>미션 보드 / Supply Chest</td><td>파견 허브 / 전리품·생산품 수집(240슬롯, Carl)</td></tr>
+        <tr><td>개인 보관함 (Private Storage)</td><td>개인 텐트 — 파견 보상 수령처, 확장 시 <strong>최대 1,000슬롯</strong></td></tr>
+        <tr><td>취사장 / 대장간 / 연금술 실험실</td><td>Ronnie 요리 · Tranan 정제/탄약 · 포션 생산</td></tr>
+        <tr><td>염색소 / 이발소</td><td>Oliver · Eric — 외형 커스터마이즈</td></tr>
+        <tr><td>농장 · 목장 · 우물</td><td>2차 확장 — 작물·가축·물 공급</td></tr>
+        <tr><td>주거 커스터마이즈</td><td>가구·사냥 트로피 배치. 기능성 가구: 특수 보관함·조리 도구·가마솥·침대·쿠쿠 쿨러·옷장 등</td></tr>
+        <tr><td>Timberturner Wainwright / Emberwind Workshop / Klinden Workshop</td><td>마차 발주 / <strong>Cloudcart(열기구)</strong> 제작 / Kuku Pot 제작</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid c2">
+    <div class="card">
+      <span class="tag">마차</span>
+      <h3>🛒 마차 건조 체인</h3>
+      <p>① Grounds of the Sunrise 진행 → ② <strong>Brice</strong> 모집 → ③ Brice's Request 완료(4장) → ④ Engineer(<strong>Arnold</strong>) 확보 → ⑤ Timberturner Wainwright에서 파견 형태로 발주.<br><br>
+      단계: <strong>Old Wagon → Freight Wagon → Trading Wagon</strong> (상위일수록 비용·적재량 증가).</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">교역</span>
+      <h3>💰 교역 루트</h3>
+      <p>Carl에게 캠프 자원 1,000개 → <strong>포장 상품 1개</strong>(수수료 100) 변환 후, <strong>Goldleaf Guildhouse</strong>(최소 25스택)나 Royal Trading Post에서 판매합니다. 4차 확장의 Trading Wagon으로 교역소 루트를 운행하는 것이 후반 주 수입원.</p>
+    </div>
+  </div>
+</section>
+
+<section id="minigames">
+  <h2>미니게임 공략</h2>
+  <div class="sub en">All Minigames</div>
+  <p class="lead">
+    미니게임 챌린지는 5개 분류 15개 — 대부분 <strong>일반 상대 3연승 → 챔피언 격파</strong> 구조이며(도중 패배 시 연승 리셋),
+    전부 완료하면 <strong>'True Gamer' 트로피</strong>를 받습니다. <a href="collectibles.html#challenges" style="color:var(--gold)">챌린지 시스템</a> 참고.
+  </p>
+  <div class="grid c2">
+    <div class="card">
+      <span class="tag">힘겨루기 4</span>
+      <h3>💪 팔씨름</h3>
+      <p>여관·주점에서 버튼 연타로 게이지를 채워 상대를 넘어뜨립니다. Hernand Castle → Calphade(웅카 퀘스트 선행) → Pailune(8장~, 의뢰로 챔피언 해금) → Delesyia 남쪽의 <strong>선 채로 하는 변형 'Freesword's Grasp'</strong>까지 4개 챌린지. 후반 2개는 어비스 유물도 보상.</p>
+    </div>
+    <div class="card">
+      <span class="tag">두뇌 게임 3</span>
+      <h3>🃏 두오(섯다) &amp; 파이브카드</h3>
+      <p><strong>두오</strong>: 한국 섯다 기반 — 남은 2장으로 족보 대결(10땡 &gt; 숫자 페어 &gt; 합9 &gt; 끗수). Hernand 주점 2층(판돈 15실버) → Tommaso(300실버). <strong>파이브카드</strong>: 빨강/노랑 조합 승부, Beighen 고액 테이블(150실버).<br><br>
+      치팅: 파란 윤곽선 상대를 3회 관찰하면 정식 치트 해금(오심 고발 시 2일 출입 금지). <a href="items.html#armor" style="color:var(--gold)">사기꾼의 페도라</a>를 쓰면 상대 패 전체가 투시되며 <strong>절대 적발되지 않습니다</strong>.</p>
+    </div>
+    <div class="card">
+      <span class="tag">사격 2</span>
+      <h3>🏹 활 &amp; 총 사격 대회</h3>
+      <p>Lioncrest Manor에서 무작위 타깃 10개 선취 경쟁. 활 대회 'Hawkeye'(<strong>클리프 전용</strong>, 챔피언 Bullseye Robin)와 총 대회 'Silver Trigger'(<strong>다미안 전용</strong>, 챔피언 Wick of the High Noon). 조준을 중앙에 두고 좌우 최소 이동으로 쏘는 것이 요령.</p>
+    </div>
+    <div class="card">
+      <span class="tag">결투 5</span>
+      <h3>🥊 결투 &amp; 아레나</h3>
+      <p>맨손 결투 'Steel Fist'(Hernand, 4장 해금) · 종합격투 'Throne of the War God'(Tashkalp) · 레슬링 'Indomitable Will'(Scholastone) · 창술 'Dragon's Fang'(Lioncrest 북동) · 검술 'Undying Knight'(<strong>Tommaso Bonepit</strong> — Champion's Plate Gloves 보상). 연승할수록 상금 증가.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">경주 1</span>
+      <h3>🏇 경마 — Darkhooves Grand Prix</h3>
+      <p>데메니스 해방 후(10장~) Breesman Pasture 옆 트랙에서 1:1 3바퀴 선착. 3연승 + 챔피언 격파 시 <strong>Riding Attire</strong>(말 조련 난이도 감소 방어구) 획득. 전설마 <strong>Royler</strong>를 Lv 4+로 육성해 가는 것이 팁 — <a href="mounts.html" style="color:var(--gold)">탈것 도감</a> 참고.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">기타</span>
+      <h3>✊ 가위바위보 · 🎣 낚시</h3>
+      <p><strong>가위바위보</strong>: 각 도시의 아이들과 3판 2선승(무료, 재도전 쿨타임 약 23게임시간) — 'A Silent War' 챌린지. <strong>낚시</strong>: Cast(홀드 거리) → Hook → Fight(저항 시 릴 정지) → Reel 4단계 루프. 전설어 5종은 <strong>Pororin Fishing Rod</strong>로만 안정 포획(각 10실버), Trust 100 보상 'The Claw'는 자동 릴링. 얕은 물은 맨손 잡기 가능.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <strong style="color:var(--sand)">출처 (Sources)</strong>
+    <ul class="src-list">
+      <li><a href="https://www.thegamer.com/crimson-desert-greymane-camp-management-how-to-guide/" target="_blank" rel="noopener">TheGamer — Greymane Camp Management</a></li>
+      <li><a href="https://www.keengamer.com/articles/guides/crimson-desert-greymane-camp-guide-all-buildings-upgrades-and-camp-management/" target="_blank" rel="noopener">KeenGamer — Camp Buildings &amp; Upgrades</a></li>
+      <li><a href="https://crimsondesert.co/guides/greymane-comrades-recruitment-dispatch-guide" target="_blank" rel="noopener">crimsondesert.co — Comrades &amp; Dispatch</a></li>
+      <li><a href="https://games.gg/crimson-desert/guides/crimson-desert-duo-and-five-card/" target="_blank" rel="noopener">games.gg — Duo &amp; Five-Card</a></li>
+      <li><a href="https://www.powerpyx.com/crimson-desert-all-challenges-guide/" target="_blank" rel="noopener">PowerPyx — All Challenges (미니게임 분류)</a></li>
+      <li><a href="https://gamerant.com/crimson-desert-darkhooves-grand-prix-challenge-horse-race-guide/" target="_blank" rel="noopener">Game Rant — Darkhooves Grand Prix</a></li>
+      <li><a href="https://www.sportskeeda.com/esports/how-get-trading-wagon-trade-packaged-goods-crimson-desert" target="_blank" rel="noopener">Sportskeeda — Trading Wagon</a></li>
+      <li><a href="https://www.thegamer.com/crimson-desert-fishing-guide-tips-tricks-how-to-catch-fish/" target="_blank" rel="noopener">TheGamer — Fishing Guide</a></li>
+    </ul>
+    <p>일부 수치(2·3차 확장 조건, 파견 타이머 등)는 출처에 명기되지 않아 (미확인)으로 표기했습니다. 비공식 팬 정보 페이지 · Crimson Desert™ © Pearl Abyss.<br>
+    최종 업데이트: 2026-09-07 · <a href="index.html">← 메인으로</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>탈것 도감 — 붉은 사막</title>
+<meta name="description" content="붉은 사막(Crimson Desert) 탈것 데이터베이스 — 말 품종·전설마·조련법, 야생 전투 마운트, 드래곤·와이번·메카">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo en" href="index.html">CRIMSON DESERT</a>
+    <a href="index.html">홈</a>
+    <a href="quests.html">퀘스트</a>
+    <a href="sidequests.html">사이드 퀘스트</a>
+    <a href="items.html">아이템</a>
+    <a href="bosses.html">보스</a>
+    <a href="regions.html">지역</a>
+    <a href="skills.html">스킬</a>
+    <a href="mounts.html" class="active">탈것</a>
+    <a href="collectibles.html">수집품</a>
+    <a href="camp.html">캠프</a>
+    <a href="#horses">말</a>
+    <a href="#taming">조련·육성</a>
+    <a href="#beasts">야생 마운트</a>
+    <a href="#special">특수 탈것</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <span class="hero-kicker en">Mount Compendium</span>
+  <h1>탈것 도감</h1>
+  <div class="hero-en en">HORSES · BEASTS · DRAGONS · MECHS</div>
+  <p class="hero-desc">기본 말부터 전설 야수, 드래곤 블랙스타, 전투 메카까지 — 파이웰의 모든 탈것과 획득법.</p>
+</header>
+
+<main>
+
+<section id="mount-overview">
+  <h2>탈것 시스템 개요</h2>
+  <div class="sub en">Overview</div>
+  <div class="scores">
+    <div class="score"><div class="num red">30종±</div><div class="lbl">탈것 (임시 포함)</div></div>
+    <div class="score"><div class="num">Lv 5</div><div class="lbl">말 신뢰도 최대 레벨</div></div>
+    <div class="score"><div class="num red">2종</div><div class="lbl">영구 비행 마운트 (블랙스타·와이번)</div></div>
+    <div class="score"><div class="num">5마리</div><div class="lbl">시길(Sigil)로 등록하는 전설 야수</div></div>
+  </div>
+  <p class="lead">
+    탈것은 <strong>영구 마운트</strong>(마구간 등록 말, 시길/스토리 획득, Special Mount 탭 등록)와
+    <strong>임시 마운트</strong>(격추 와이번, 격납고 메카, 가축, NPC 탈취 일부 — 하차 시 소멸·적대화)로 나뉩니다.
+    말만이 레벨업(신뢰도)이 가능한 카테고리이며, 야생 전투 마운트는 전투 능력이 고정입니다.
+  </p>
+</section>
+
+<section id="horses">
+  <h2>말 — 품종 &amp; 전설마</h2>
+  <div class="sub en">Horses &amp; Legendary Horses</div>
+  <div class="tbl-wrap">
+    <table class="items">
+      <thead><tr><th>품종</th><th>구분</th><th>획득법</th><th>특징 · 고유 스킬</th></tr></thead>
+      <tbody>
+        <tr><td>Herspia</td><td>표준</td><td>프롤로그 기본 지급 / 야생 조련</td><td>표준 스킬만 보유, 외형 다양</td></tr>
+        <tr><td>Priden</td><td>표준</td><td>야생 조련 / 마구간 구매 / NPC 탈취</td><td><strong>최고 방어력</strong> · High Jump</td></tr>
+        <tr><td>Brianto</td><td>표준</td><td>다미안의 기본 마운트 / 야생 조련</td><td><strong>최속</strong> · Boost / Double Boost</td></tr>
+        <tr><td>Elantrima</td><td>표준</td><td>야생 조련 / 마구간 구매</td><td><strong>최고 체력</strong> · Lateral Movement(측면 이동)</td></tr>
+        <tr><td>Numont</td><td>표준</td><td>야생 조련 / 마구간 구매</td><td>가속·공격 특화 · Charge</td></tr>
+        <tr><td>Royler</td><td>⭐ 전설</td><td>Silverwolf Mountain, Snowgrass Hearth 캠프 인근</td><td>백마 — <a href="camp.html#minigames" style="color:var(--gold)">경마 챌린지</a> 추천마. 한랭 지대라 접근 시 기력 소모 주의</td></tr>
+        <tr><td>Rokade</td><td>⭐ 전설</td><td>Steel Mountains, Spire of Insight 인근</td><td>전설마 중 <strong>최고 HP</strong> (탱커형)</td></tr>
+        <tr><td>Camora</td><td>⭐ 전설</td><td>남부 Redtree Forest, Red River 인근</td><td>밸런스형 — 온화한 기후라 <strong>조련 난도 최저</strong></td></tr>
+        <tr><td>Race Horse · 병사 말 등</td><td>임시</td><td>경마 콘텐츠 / NPC 탈취</td><td>임시 사용</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="lead" style="margin-top:16px">
+    ※ 전설마 조련에는 플레이어 <strong>기력(Stamina) 특성 레벨 8+</strong>(일반 야생마는 6+)가 권장됩니다.
+    야생 조련은 무료·무범죄에 <strong>자동 등록</strong>까지 되므로 훔친 말(마구간 등록 필요)보다 유리합니다.
+  </p>
+</section>
+
+<section id="taming">
+  <h2>조련 &amp; 육성</h2>
+  <div class="sub en">Taming &amp; Training</div>
+  <div class="grid c3">
+    <div class="card">
+      <span class="tag">조련</span>
+      <h3>🐴 말 조련 미니게임</h3>
+      <p>후방에서 웅크려 접근(미끼: 건초·당근·각설탕) 후 탑승하면 말이 날뛰며 원형 로프 게이지가 표시됩니다.
+      <strong>말 머리 방향의 반대쪽으로 스틱 입력</strong> — 게이지가 노랗게 차면 성공, 빨개지면 낙마.
+      탑다운 카메라, 또는 S키 홀드 + 말 꼬리가 화면 정면을 향하게 카메라를 돌리는 방식이 가장 쉽습니다. 실패해도 근처에서 재시도 가능.</p>
+    </div>
+    <div class="card">
+      <span class="tag">육성</span>
+      <h3>📈 신뢰도(Trust) Lv 1~5</h3>
+      <p>전투가 아니라 <strong>탑승 · 먹이 주기(귀리·사과·건초) · 쓰다듬기</strong>로만 성장합니다.<br>
+      Lv2 <strong>Dash</strong> → Lv3 <strong>Drift</strong>(급선회) + Back Kick → Lv4 <strong>Sprint</strong>(최고 속도) → Lv5 전 스킬 완성.
+      마구(안장·등자·편자·마면갑)는 마구간에서 장착.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">야수 조련</span>
+      <h3>🐻 야생동물 &amp; 시길</h3>
+      <p>곰·늑대 등은 <strong>Force Palm으로 제압 → 탑승 → 생먹이로 Trust 100</strong> 달성 시 Special Mount로 등록됩니다.
+      전설 야수 5종(Silver Fang·White Bear·Snowwhite Deer·Icicle Edge Alpine Ibex·Rock Tusk Warthog)은
+      격파 후 소재를 <strong>마녀에게 가져가 시길(Sigil) 제작</strong> → 사용 시 영구 등록.</p>
+    </div>
+  </div>
+</section>
+
+<section id="beasts">
+  <h2>야생 전투 마운트</h2>
+  <div class="sub en">Wild Combat Mounts</div>
+  <div class="tbl-wrap">
+    <table class="items">
+      <thead><tr><th>탈것</th><th>종류</th><th>획득법</th><th>특징</th></tr></thead>
+      <tbody>
+        <tr><td>Brown Bear</td><td>곰</td><td>Greenfield Highlands 어비스 넥서스 인근 야생 조련</td><td>강력한 돌진 공격</td></tr>
+        <tr><td>Clawed Bear (Black Bear)</td><td>곰</td><td>검은곰 세력 거점에서 격파 후 획득</td><td>전투 마운트</td></tr>
+        <tr><td>White Bear</td><td>⭐ 전설 곰</td><td>Five-Finger Mountain에서 격파 → White Bear Claw로 시길 제작</td><td>영구 등록</td></tr>
+        <tr><td>Large Wolf / Large White Wolf</td><td>늑대</td><td>파일룬 야생 조련</td><td>전투 마운트</td></tr>
+        <tr><td>Silver Fang</td><td>⭐ 전설 늑대</td><td>Howling Hollow 격파 → 시길 (가문 세력 퀘스트 선행)</td><td>영구 등록</td></tr>
+        <tr><td>Rosehorn Deer / Snowwhite Deer</td><td>사슴</td><td>Mistwood Hunters 탈취 / ⭐ Silverwolf Mountain 격파 → 시길</td><td>—</td></tr>
+        <tr><td>Ibex / Icicle Edge Alpine Ibex</td><td>아이벡스</td><td>파일룬 산악 조련 / ⭐ Mistwood Huntmaster 격파(8장 완료 후)</td><td>산악 이동 특화</td></tr>
+        <tr><td>Boar / Rock Tusk Warthog</td><td>멧돼지</td><td>Savage Fangs 탈취 / ⭐ Ravok 격파(Red River 인근)</td><td>영구 등록(전설)</td></tr>
+        <tr><td>Lion / Tiger</td><td>고양이과</td><td>서커스 탈취 · 야생 격파 후 조련</td><td>—</td></tr>
+        <tr><td>Giant Iguana / Red-Feathered Raptor</td><td>파충류·랩터</td><td>붉은 사막 지역 — 랩터는 <strong>생고기로 조련</strong> 또는 라이더 격파</td><td>거친 지형에서 말보다 빠름</td></tr>
+        <tr><td>Sandwalk Camel</td><td>낙타</td><td>Redwind Merchant Guild 퀘스트 완료 보상</td><td>사막 특화</td></tr>
+        <tr><td>Leaping Kuku Bird</td><td>대형 조류</td><td>Bloodsteel Camp 비밀방에서 알 획득 → Grey Rock Quarry 남쪽 산 정상 둥지에서 부화</td><td>점프 특화</td></tr>
+        <tr><td>소 · 버팔로 · 코끼리</td><td>가축 등</td><td>목장 탈취(범죄 판정 가능) / Demeniss Wildlife Park</td><td>임시</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="special">
+  <h2>특수 탈것 — 드래곤 · 와이번 · 메카</h2>
+  <div class="sub en">Dragons · Wyverns · Mechs</div>
+  <div class="grid c2">
+    <div class="card">
+      <span class="tag">스토리</span>
+      <h3>🐉 블랙스타 (Blackstar)</h3>
+      <p>9장 <a href="quests.html" style="color:var(--gold)">'부서진 인연'</a>에서 등의 창을 뽑아주며 첫 조우하고,
+      <strong>11장 피날레 'Master of a Forgotten Land' 완료 시 영구 마운트로 해금</strong>되는 드래곤 (약 50시간+ 플레이 필요, HP 2,500).
+      최종장 움브라전의 탑승 기체이기도 합니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag">패치 추가</span>
+      <h3>🦅 와이번 — 임시 &amp; 영구</h3>
+      <p><strong>임시</strong>: 델레이시아 남부 Fort Windridge에서 활/머스킷으로 격추 후 착지 개체에 탑승(원거리 스킬·속성 부여 시 죽어버림, 하차 시 적대화).<br><br>
+      <strong>영구</strong>(패치 1.10): 델레이시아 남서 'Wyvern's Cradle'에서 Focused Force Palm으로 Bismuth 암석 파괴 → <strong>시든 와이번 알</strong> 획득 → 둥지에 안치(실시간 약 5분 부화) → 새끼에게 구운 고기를 급여해 성장 Lv 3 → 'Grow' 선택 시 Special Mount 등록. <strong>알은 맵에 총 4개 = 최대 4마리</strong>. 블랙스타와 달리 비행 제한이 없습니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">메카</span>
+      <h3>🤖 A.T.A.G. &amp; 스몰 쿠쿠 A.T.A.G.</h3>
+      <p><strong>A.T.A.G.</strong>(임시): 10장 'Hidden Ace'에서 자동 해금 — 화염방사기·미니건·로켓·대공 미사일·제트팩 무장 변종, Gorthak 격납고(녹색 등 컨테이너)에서 추가 탑승.<br><br>
+      <strong>스몰 쿠쿠 A.T.A.G.</strong>(영구): 세력 퀘스트 'New Designs' → Zargan Tankworks의 Artisan Marek에게 도면 수령 → Kilnden Workshop 제작(Kuku Pot·Abyss Cell·Cog Wheel ×5·Small Battery ×5). 업그레이드 슬롯: <strong>레이저 빔 / 부츠 / 장갑</strong> — 델레이시아 연구소에서 Mk.II/III 해금.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">기타</span>
+      <h3>🚂 열차 · 열기구 · 수레</h3>
+      <p>델레이시아 철도의 <strong>열차</strong>(지역 한정), Emberwind Workshop의 <strong>Cloudcart 열기구</strong>, 그리고 캠프에서 건조하는 교역 수레(Old → Freight → Trading Wagon)까지 — 수레·교역 흐름은 <a href="camp.html#facilities" style="color:var(--gold)">캠프 페이지</a>에 정리되어 있습니다.
+      참고: 웅카의 <strong>쿠쿠 로켓팩</strong>은 탈것이 아닌 동료 장비로, 8장에 도면이 열립니다.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <strong style="color:var(--sand)">출처 (Sources)</strong>
+    <ul class="src-list">
+      <li><a href="https://game8.co/games/Crimson-Desert/archives/587091" target="_blank" rel="noopener">Game8 — List of All Mounts</a></li>
+      <li><a href="https://crimsondesertgame.wiki.fextralife.com/Mounts" target="_blank" rel="noopener">Fextralife — Mounts</a></li>
+      <li><a href="https://www.method.gg/crimson-desert/how-to-tame-a-horse-in-crimson-desert-best-horse-to-tame" target="_blank" rel="noopener">Method — 말 조련 가이드</a></li>
+      <li><a href="https://vulkk.com/2026/04/03/how-to-tame-horses-in-crimson-desert/" target="_blank" rel="noopener">VULKK — How to Tame Horses</a></li>
+      <li><a href="https://game8.co/games/Crimson-Desert/archives/602056" target="_blank" rel="noopener">Game8 — Wyvern Mount (패치 1.10)</a></li>
+      <li><a href="https://www.powerpyx.com/crimson-desert-how-to-unlock-robot-mount/" target="_blank" rel="noopener">PowerPyx — Robot Mount</a></li>
+      <li><a href="https://www.gamespot.com/gallery/crimson-desert-dragon-mount-blackstar-guide/2900-7597/" target="_blank" rel="noopener">GameSpot — Blackstar Guide</a></li>
+      <li><a href="https://www.thegamer.com/crimson-desert-kuku-bird-mount-location-how-to-hatch-egg-saddle-guide/" target="_blank" rel="noopener">TheGamer — Kuku Bird</a></li>
+    </ul>
+    <p>자동생성 성격의 사이트(일부 위키)와 상충되는 정보는 실측 가이드(Game8·Fextralife·PowerPyx 등)를 기준으로 채택했으며, 불확실 항목은 (미확인)으로 표기했습니다. 비공식 팬 정보 페이지 · Crimson Desert™ © Pearl Abyss.<br>
+    최종 업데이트: 2026-09-07 · <a href="index.html">← 메인으로</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
