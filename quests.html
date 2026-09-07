@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>퀘스트 정보 — 붉은 사막</title>
-<meta name="description" content="붉은 사막(Crimson Desert) 메인 퀘스트 데이터베이스 — 프롤로그부터 에필로그까지 12개 챕터 전체 구성">
+<meta name="description" content="붉은 사막(Crimson Desert) 메인 퀘스트 데이터베이스 — 프롤로그부터 에필로그까지 전 챕터 168개 세부 퀘스트와 챕터별 보스">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
   <span class="hero-kicker en">Quest Database</span>
   <h1>퀘스트 정보</h1>
   <div class="hero-en en">MAIN QUESTS &amp; CHAPTERS</div>
-  <p class="hero-desc">프롤로그부터 에필로그까지, 클리프와 회색갈기 용병단의 여정 전체를 담은 메인 퀘스트 데이터베이스.</p>
+  <p class="hero-desc">프롤로그부터 에필로그까지 — 전 챕터의 세부 퀘스트 168개와 챕터별 보스를 담은 메인 퀘스트 데이터베이스.</p>
 </header>
 
 <main>
@@ -43,13 +43,12 @@
   <div class="scores">
     <div class="score"><div class="num">12+2</div><div class="lbl">챕터 (프롤로그·에필로그 포함)</div></div>
     <div class="score"><div class="num red">31</div><div class="lbl">메인 퀘스트 라인</div></div>
-    <div class="score"><div class="num">140+</div><div class="lbl">세부 퀘스트 단계</div></div>
+    <div class="score"><div class="num">168</div><div class="lbl">세부 퀘스트</div></div>
     <div class="score"><div class="num red">35~45h</div><div class="lbl">메인 스토리 클리어 시간</div></div>
   </div>
   <p class="lead">
     메인 스토리는 <strong>프롤로그 + 12개 챕터 + 에필로그</strong>로 구성되며, 각 챕터는 여러 개의 퀘스트 라인,
-    그 아래 세부 퀘스트 단계로 나뉩니다. 파이웰 대륙에서 살아남기, 저항, 그리고 자기 발견으로 이어지는
-    클리프와 회색갈기의 대서사시를 따라갑니다. 지도의 <strong style="color:var(--gold)">주황색 마커</strong>가
+    그 아래 세부 퀘스트로 나뉩니다. 지도의 <strong style="color:var(--gold)">주황색 마커</strong>가
     다음 메인 퀘스트 진행 지역을 안내하며, 챕터 사이사이 사이드 콘텐츠를 얼마나 즐기느냐에 따라 플레이 타임은 크게 늘어납니다.
     (열성 유저 기준 240시간 이상 플레이 사례도 보고됨)
   </p>
@@ -58,19 +57,21 @@
 <section id="chapters">
   <h2>챕터별 메인 퀘스트</h2>
   <div class="sub en">All Chapters &amp; Main Quests</div>
-  <p class="lead">챕터를 클릭하면 퀘스트 라인 구성이 펼쳐집니다. 퀘스트명은 글로벌(영문판) 기준입니다.</p>
+  <p class="lead">챕터를 클릭하면 퀘스트 라인과 세부 퀘스트 전체가 펼쳐집니다. 퀘스트명은 글로벌(영문판) 기준입니다.</p>
 
   <details class="chapter" open>
     <summary>
       <span class="ch-no gold">PRO</span>
       <span class="ch-title"><span class="ko">한밤의 죽음</span><br><span class="orig en">Prologue: Dead of Night</span></span>
-      <span class="ch-count">2개 퀘스트 라인</span>
+      <span class="ch-count">2개 라인 · 4개 퀘스트</span>
     </summary>
     <div class="ch-body">
       <p class="desc">검은곰 무리가 회색갈기 야영지를 기습하는 그날 밤. 모든 이야기가 시작되는 서장.</p>
       <ul class="qlist">
-        <li><strong>Ambush</strong> — 기습 <span class="qn">Unfamiliar Lands · In Ashes</span></li>
-        <li><strong>Unknown Space</strong> — 미지의 공간 <span class="qn">Realm of Uncertainty · New Journey</span></li>
+        <li><strong>Ambush</strong> — 기습
+          <span class="qsteps">Unfamiliar Lands → In Ashes</span></li>
+        <li><strong>Unknown Space</strong> — 미지의 공간
+          <span class="qsteps">Realm of Uncertainty → New Journey</span></li>
       </ul>
     </div>
   </details>
@@ -84,8 +85,10 @@
     <div class="ch-body">
       <p class="desc">흩어진 동료의 흔적을 쫓아 여정을 시작하는 클리프. 낯선 땅에서의 첫 인연.</p>
       <ul class="qlist">
-        <li><strong>Trials of Kindness</strong> — 친절의 시험 <span class="qn">5개 세부 퀘스트</span></li>
-        <li><strong>Traces</strong> — 흔적 <span class="qn">4개 세부 퀘스트</span></li>
+        <li><strong>Trials of Kindness</strong> — 친절의 시험
+          <span class="qsteps">Where Rumors Gather → Mysterious Man → True Wisdom in Kindness → Heart Beyond Borders → Actions Speak Louder than Words</span></li>
+        <li><strong>Traces</strong> — 흔적
+          <span class="qsteps">Mystical Key → Polar Opposites → Abyss without Balance → Woman in White</span></li>
       </ul>
     </div>
   </details>
@@ -99,10 +102,14 @@
     <div class="ch-body">
       <p class="desc">혼란에 빠진 도시 헤르난드. 탐욕이 부른 사건의 한복판으로 뛰어든다.</p>
       <ul class="qlist">
-        <li><strong>Unexpected Gift</strong> — 뜻밖의 선물 <span class="qn">3개 세부 퀘스트</span></li>
-        <li><strong>Hernand in Chaos</strong> — 혼돈의 헤르난드 <span class="qn">8개 세부 퀘스트</span></li>
-        <li><strong>The End of Greed</strong> — 탐욕의 끝 <span class="qn">5개 세부 퀘스트</span></li>
+        <li><strong>Unexpected Gift</strong> — 뜻밖의 선물
+          <span class="qsteps">Where the Light Leads → Memory Fragment → Reunion</span></li>
+        <li><strong>Hernand in Chaos</strong> — 혼돈의 헤르난드
+          <span class="qsteps">For Honor → Awestruck → Shadow Casted Over the River → Where Mystery Gathers → Trial After Trial → The Man Trapped in the Mire → Missing Companion → Secrets Hidden in the Dark</span></li>
+        <li><strong>The End of Greed</strong> — 탐욕의 끝
+          <span class="qsteps">The Dark Veil → The Flames of Greed → Kidnapped Healer → Rebellion or Revolution → Cheers Echoing From the Edge</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>카일록, 뿔가르개</strong> (Kailok, the Hornsplitter) — <a href="bosses.html#story-bosses" style="color:var(--gold)">공략</a></p>
     </div>
   </details>
 
@@ -113,12 +120,16 @@
       <span class="ch-count">3개 라인 · 17개 퀘스트</span>
     </summary>
     <div class="ch-body">
-      <p class="desc">정착지를 개척하며 새 터전을 꾸리는 장. 이 챕터에서 <strong style="color:var(--gold)">다미안이 플레이어블 캐릭터로 해금</strong>되고, 학자의 돌 연구소 퀘스트로 <strong style="color:var(--gold)">연금술 실험실</strong>이 열린다.</p>
+      <p class="desc">정착지를 개척하며 새 터전을 꾸리는 장. <strong style="color:var(--gold)">다미안 해금</strong> · 학자의 돌 연구소 퀘스트로 <strong style="color:var(--gold)">연금술 실험실</strong> 개방 · <a href="sidequests.html#best" style="color:var(--gold)">캠프 건설 체인</a> 시작.</p>
       <ul class="qlist">
-        <li><strong>Homestead</strong> — 정착지 <span class="qn">6개 세부 퀘스트</span></li>
-        <li><strong>The Face Behind the Mask</strong> — 가면 뒤의 얼굴 <span class="qn">5개 세부 퀘스트</span></li>
-        <li><strong>Pioneering</strong> — 개척 <span class="qn">6개 세부 퀘스트</span></li>
+        <li><strong>Homestead</strong> — 정착지
+          <span class="qsteps">Old Friend → First Step to Rebuilding → A Fresh Start → Reward for Their Sweat → Return of the Comrade → Familiar Curses</span></li>
+        <li><strong>The Face Behind the Mask</strong> — 가면 뒤의 얼굴
+          <span class="qsteps">Return → Traces in the Manor → Nonhuman → Seed of Unease → Dance with the Devil</span></li>
+        <li><strong>Pioneering</strong> — 개척
+          <span class="qsteps">Hope After the Drought → Scattered Comrades → Rumors from the Sawmill → A Gentle Touch → Bustling Hill → Greymanes Reunited</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>리드 데빌</strong> (Reed Devil, 체력바 3줄) — <a href="bosses.html#story-bosses" style="color:var(--gold)">공략</a></p>
     </div>
   </details>
 
@@ -131,10 +142,14 @@
     <div class="ch-body">
       <p class="desc">금지된 지식을 둘러싼 사건. 앎에는 언제나 대가가 따른다.</p>
       <ul class="qlist">
-        <li><strong>Mysterious Iron Pot</strong> — 수수께끼의 무쇠솥 <span class="qn">4개 세부 퀘스트</span></li>
-        <li><strong>Daily Life</strong> — 일상 <span class="qn">2개 세부 퀘스트</span></li>
-        <li><strong>Forbidden Knowledge</strong> — 금지된 지식 <span class="qn">7개 세부 퀘스트</span></li>
+        <li><strong>Mysterious Iron Pot</strong> — 수수께끼의 무쇠솥
+          <span class="qsteps">Kilnden Workshop → Kiln Repair at the Kilnden Workshop → The Mysterious Pot → The Pot's Use</span></li>
+        <li><strong>Daily Life</strong> — 일상
+          <span class="qsteps">Disturbance at the Arena → Skilled in Archery</span></li>
+        <li><strong>Forbidden Knowledge</strong> — 금지된 지식
+          <span class="qsteps">The Words of Alustin → Scholastone → On the Right Path → Gate to the Otherworld → Spire of the Stars → Obsession and Madness → Cast Shadow</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>테네브룸</strong> (Tenebrum, 짧은 조우) — 학자의 돌 연구소</p>
     </div>
   </details>
 
@@ -145,11 +160,14 @@
       <span class="ch-count">2개 라인 · 10개 퀘스트</span>
     </summary>
     <div class="ch-body">
-      <p class="desc">초대받지 않은 손님이 찾아오고, 흑과 백의 경계가 흐려진다.</p>
+      <p class="desc">초대받지 않은 손님이 찾아오고, 흑과 백의 경계가 흐려진다. 이 무렵부터 <a href="regions.html#abyss" style="color:var(--gold)">어비스</a>가 열린다.</p>
       <ul class="qlist">
-        <li><strong>Uninvited Guest</strong> — 불청객 <span class="qn">4개 세부 퀘스트</span></li>
-        <li><strong>Black and White</strong> — 흑과 백 <span class="qn">6개 세부 퀘스트</span></li>
+        <li><strong>Uninvited Guest</strong> — 불청객
+          <span class="qsteps">Double-sided Invitation → Unwelcomed Guests → Demenissian Delegation → Exposed Plot</span></li>
+        <li><strong>Black and White</strong> — 흑과 백
+          <span class="qsteps">The Missing Seal → Crowcaller → The Crow's Warning → Bloodwind → Secret at the Church → Toward the Nest</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>케아루쉬, 학살자</strong> (게임 최고 난이도) · <strong>크로우콜러</strong> — <a href="bosses.html#story-bosses" style="color:var(--gold)">공략</a></p>
     </div>
   </details>
 
@@ -162,11 +180,16 @@
     <div class="ch-body">
       <p class="desc">봉화가 타오르고 전선이 요동친다. 대규모 전쟁의 흐름 속으로.</p>
       <ul class="qlist">
-        <li><strong>Blazing Beacon</strong> — 타오르는 봉화 <span class="qn">3개 세부 퀘스트</span></li>
-        <li><strong>Under the Banner Pike Again</strong> — 다시 깃발 아래로 <span class="qn">3개 세부 퀘스트</span></li>
-        <li><strong>Turning Tides</strong> — 전세 역전 <span class="qn">4개 세부 퀘스트</span></li>
-        <li><strong>The Undying Shields</strong> — 불굴의 방패 <span class="qn">5개 세부 퀘스트</span></li>
+        <li><strong>Blazing Beacon</strong> — 타오르는 봉화
+          <span class="qsteps">News → To the Battlefield → The Counterattack</span></li>
+        <li><strong>Below the Banners</strong> — 깃발 아래에서
+          <span class="qsteps">Cradle of Defense → Hand of Deliverance → Fire on the Frontlines</span></li>
+        <li><strong>Turning Tides</strong> — 전세 역전
+          <span class="qsteps">Fire Support → In Ashes → Hidden Fangs → Reclamation</span></li>
+        <li><strong>The Unyielding Shields</strong> — 불굴의 방패
+          <span class="qsteps">A Thousand Troops → Traitor → All Quiet on the Front → News of Victory → Return Home</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>카시우스 모튼</strong> (배신자 / 첫 방패 보스) — <a href="bosses.html#story-bosses" style="color:var(--gold)">공략</a></p>
     </div>
   </details>
 
@@ -177,13 +200,18 @@
       <span class="ch-count">4개 라인 · 19개 퀘스트</span>
     </summary>
     <div class="ch-body">
-      <p class="desc">배신과 희망, 탈환이 교차하는 최대 규모의 챕터. 챕터 후반 <strong style="color:var(--gold)">웅카가 플레이어블 캐릭터로 해금</strong>된다.</p>
+      <p class="desc">배신과 희망, 탈환이 교차하는 최대 규모의 챕터. 챕터 후반 <strong style="color:var(--gold)">웅카 해금</strong>.</p>
       <ul class="qlist">
-        <li><strong>Dawn Mist</strong> — 새벽 안개 <span class="qn">5개 세부 퀘스트</span></li>
-        <li><strong>Dawnrise</strong> — 동이 트는 시간 <span class="qn">6개 세부 퀘스트</span></li>
-        <li><strong>Decisive Battle</strong> — 결전 <span class="qn">6개 세부 퀘스트</span></li>
-        <li><strong>Twisted Fate</strong> — 뒤틀린 운명 <span class="qn">2개 세부 퀘스트</span></li>
+        <li><strong>Morning Mist</strong> — 새벽 안개
+          <span class="qsteps">Ashes of Treachery → Trust Lost → Bared Fang → Rekindled Hope → Podium of Resolve</span></li>
+        <li><strong>Dawnrise</strong> — 동이 트는 시간
+          <span class="qsteps">Shadows Over Pailune → Driving out the Shadows → Lurking Wolves → Reclamation → Lonely Jackals → Resolution</span></li>
+        <li><strong>Decisive Battle</strong> — 결전
+          <span class="qsteps">The Counterattack → Unleashed Fury → The Final Bridge → Broken Claws → Battle at Silver Wolf Mountain → Incomplete Victory</span></li>
+        <li><strong>Twisted Fate</strong> — 뒤틀린 운명
+          <span class="qsteps">Ludvig's Whereabouts → Time to Face Justice</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>루드비히</strong> (Ludvig, 2회 조우) · <strong>뮤르딘</strong> (1차전)</p>
     </div>
   </details>
 
@@ -194,12 +222,16 @@
       <span class="ch-count">3개 라인 · 15개 퀘스트</span>
     </summary>
     <div class="ch-body">
-      <p class="desc">왕도 데메니스로 향하는 길. 대관 의식을 둘러싼 정치적 격돌과 배신자의 그림자.</p>
+      <p class="desc">왕도 데메니스로 향하는 길. 대관 의식을 둘러싼 정치적 격돌과 배신자의 그림자. 웅카의 <strong style="color:var(--gold)">로켓팩 비행</strong>도 이 챕터에서 열린다.</p>
       <ul class="qlist">
-        <li><strong>Ashen Steps</strong> — 잿빛 발걸음 <span class="qn">4개 세부 퀘스트</span></li>
-        <li><strong>To Demeniss</strong> — 데메니스로 <span class="qn">9개 세부 퀘스트</span></li>
-        <li><strong>Traitor</strong> — 배신자 <span class="qn">2개 세부 퀘스트</span></li>
+        <li><strong>Ashen Steps</strong> — 잿빛 발걸음
+          <span class="qsteps">Healing Pailune → A Bond → Ritual Preparations → Where the Wind Guides You</span></li>
+        <li><strong>To Demeniss</strong> — 데메니스로
+          <span class="qsteps">Chasing a Shadow → Blazing Fire → Whispering Shadows → Bloodied Invitation → Resolve Amidst a Storm → Preparations for Advance → Rebel Suppression → The Cursed Knight → The Blood Coronation</span></li>
+        <li><strong>Traitor</strong> — 배신자
+          <span class="qsteps">Clue → A Fleeting Dream</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>그레고르, 살육의 미늘창</strong> · <strong>포르탱, 저주받은 기사</strong> · <strong>칼리번 공작</strong> · <strong>바스티에</strong></p>
     </div>
   </details>
 
@@ -212,13 +244,20 @@
     <div class="ch-body">
       <p class="desc">사막에서 마주하는 깨달음과 대결. 가장 많은 퀘스트 라인으로 구성된 챕터.</p>
       <ul class="qlist">
-        <li><strong>The Calling</strong> — 부름 <span class="qn">2개 세부 퀘스트</span></li>
-        <li><strong>Shattered Ties</strong> — 부서진 인연 <span class="qn">2개 세부 퀘스트</span></li>
-        <li><strong>Thinning Blade</strong> — 무뎌지는 칼날 <span class="qn">2개 세부 퀘스트</span></li>
-        <li><strong>Six Pensive Statues and the Evil Spirit</strong> — 여섯 석상과 악령 <span class="qn">6개 세부 퀘스트</span></li>
-        <li><strong>Veiled Witch</strong> — 베일에 싸인 마녀 <span class="qn">3개 세부 퀘스트</span></li>
-        <li><strong>Enlightenment</strong> — 깨달음 <span class="qn">4개 세부 퀘스트</span></li>
+        <li><strong>The Calling</strong> — 부름
+          <span class="qsteps">An Unknown Voice → Cloister of Enlightenment</span></li>
+        <li><strong>Shattered Ties</strong> — 부서진 인연
+          <span class="qsteps">Mark of the Scar → Shackles of Fate</span></li>
+        <li><strong>Thinning Blade</strong> — 무뎌지는 칼날
+          <span class="qsteps">Crossing Point → Unwavering Steps</span></li>
+        <li><strong>Six Pensive Statues and the Evil Spirit</strong> — 여섯 석상과 악령
+          <span class="qsteps">Morning Fog → Jijeong Temple in Chaos → Path to Enlightenment → Path of the Disciple → True Strength → Face the Inner Self</span></li>
+        <li><strong>Veiled Witch</strong> — 베일에 싸인 마녀
+          <span class="qsteps">Fragments of Darkness → Pursuit Beyond the Veil → Black Witch</span></li>
+        <li><strong>Enlightenment</strong> — 깨달음
+          <span class="qsteps">The Cloister of Enlightenment → The Sage of the Desert → New Perspectives → Lust for Power</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>고옌</strong> · <strong>트루칸, 초월자</strong> · <strong>헥세 마리</strong> (검은 마녀) · <strong>마스터 두</strong> — <a href="bosses.html#story-bosses" style="color:var(--gold)">공략</a></p>
     </div>
   </details>
 
@@ -231,9 +270,12 @@
     <div class="ch-body">
       <p class="desc">비밀 병기와 화력을 준비해 전략적 반격에 나서는 장.</p>
       <ul class="qlist">
-        <li><strong>Secret Weapon</strong> — 비밀 병기 <span class="qn">5개 세부 퀘스트</span></li>
-        <li><strong>Greater Firepower</strong> — 더 강한 화력 <span class="qn">4개 세부 퀘스트</span></li>
+        <li><strong>Secret Weapon</strong> — 비밀 병기
+          <span class="qsteps">Untouchable → The Gate of War → Master of the Ironworks → Hidden Ace → Clockwork Insect Clash</span></li>
+        <li><strong>Greater Firepower</strong> — 더 강한 화력
+          <span class="qsteps">Beating Heart → Invaders from the East → Frozen Hearted Predator → Lingering Shadow</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>마르니의 클록워크 맨티스</strong> (Marni's Clockwork Mantis)</p>
     </div>
   </details>
 
@@ -244,11 +286,14 @@
       <span class="ch-count">2개 라인 · 8개 퀘스트</span>
     </summary>
     <div class="ch-body">
-      <p class="desc">모든 진실이 드러나고, 다가오는 위협의 실체가 밝혀진다.</p>
+      <p class="desc">강철의 도시에서 모든 진실이 드러나고, 하늘을 나는 요새가 모습을 드러낸다. 보스 러시 챕터.</p>
       <ul class="qlist">
-        <li><strong>Brave New World</strong> — 멋진 신세계 <span class="qn">5개 세부 퀘스트</span></li>
-        <li><strong>Foreboding Shadow</strong> — 불길한 그림자 <span class="qn">3개 세부 퀘스트</span></li>
+        <li><strong>Brave New World</strong> — 멋진 신세계
+          <span class="qsteps">The City of Steel → Crossroads → Strange Manor → Fortress Keys → Truth and Lies</span></li>
+        <li><strong>Foreboding Shadow</strong> — 불길한 그림자
+          <span class="qsteps">Master of a Forgotten Land → Whispers in the Wind → Flying Fortress Orbian</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>드레드노트</strong> · <strong>스톰 크러셔</strong> · <strong>썬더 탱크</strong> · <strong>골든 스타</strong> (드래곤) · <strong>H.A.L.L.</strong></p>
     </div>
   </details>
 
@@ -259,11 +304,14 @@
       <span class="ch-count">2개 라인 · 6개 퀘스트</span>
     </summary>
     <div class="ch-body">
-      <p class="desc">최종장. 심연으로 향하는 마지막 전투 — 최종 보스 <strong style="color:var(--crimson-bright)">뮤르딘</strong>과의 대결.</p>
+      <p class="desc">최종장. 심연으로 향하는 마지막 전투.</p>
       <ul class="qlist">
-        <li><strong>The Final Battle</strong> — 최후의 전투 <span class="qn">4개 세부 퀘스트</span></li>
-        <li><strong>The Void</strong> — 공허 <span class="qn">2개 세부 퀘스트</span></li>
+        <li><strong>The Final Battle</strong> — 최후의 전투
+          <span class="qsteps">Precise Execution → Deferred Advance → Departure of the Brave → Forbidden Gate</span></li>
+        <li><strong>The Void</strong> — 공허
+          <span class="qsteps">A Shadow in the Void → Blinding Darkness</span></li>
       </ul>
+      <p class="ch-boss">👑 보스: <strong>타락한 칼리번</strong> · <strong>움브라의 화신</strong> (뮤르딘 빙의) · 최종 보스 <strong>움브라</strong> — <a href="bosses.html#story-bosses" style="color:var(--gold)">공략</a></p>
     </div>
   </details>
 
@@ -276,7 +324,8 @@
     <div class="ch-body">
       <p class="desc">모든 것이 끝난 뒤, 남겨진 이들의 이야기를 마무리하는 에필로그.</p>
       <ul class="qlist">
-        <li><strong>Journey's End</strong> — 여정의 끝 <span class="qn">8개 세부 퀘스트</span></li>
+        <li><strong>Journey's End</strong> — 여정의 끝
+          <span class="qsteps">A New Beginning → Peace in Hernand → The Unyielding Shields → The Heart of Pywel → The Enduring Flame → Evolving City → The Desert's Edge → New Horizons</span></li>
       </ul>
     </div>
   </details>
@@ -299,17 +348,17 @@
     <div class="card">
       <span class="tag gold">캐릭터 해금</span>
       <h3>다미안 3장 · 웅카 7장</h3>
-      <p>다미안은 3장, 웅카는 7장 후반에 해금됩니다. 캐릭터별 전투 스타일이 다르므로 해금 시점마다 조작에 적응할 시간을 가지세요.</p>
+      <p>다미안은 3장, 웅카는 7장 후반에 해금됩니다. 캐릭터별 전투 스타일이 다르므로 해금 시점마다 조작에 적응할 시간을 가지세요. 스킬 구성은 <a href="skills.html#characters" style="color:var(--gold)">캐릭터별 스킬</a> 참고.</p>
     </div>
     <div class="card">
       <span class="tag gold">준비</span>
       <h3>보스전 전 소비 아이템 세팅</h3>
-      <p>회복 요리 + 속성 저항 요리 버프 + 연금술 포션(공격 속도 등) 조합이 보스전의 기본 준비물입니다. 자세한 내용은 <a href="items.html" style="color:var(--gold)">아이템 정보</a> 참고.</p>
+      <p>회복 요리 + 속성 저항 요리 버프 + 연금술 포션(공격 속도 등) 조합이 보스전의 기본 준비물입니다. 자세한 내용은 <a href="items.html#consumables" style="color:var(--gold)">아이템 정보</a> 참고.</p>
     </div>
     <div class="card">
       <span class="tag">난이도</span>
       <h3>사이드 콘텐츠로 성장</h3>
-      <p>막히는 보스가 있다면 챕터 사이 사이드 콘텐츠(사냥·의뢰·탐험)로 장비와 스킬을 보강한 뒤 재도전하는 것이 정석입니다.</p>
+      <p>막히는 보스가 있다면 챕터 사이 <a href="sidequests.html" style="color:var(--gold)">사이드 콘텐츠</a>(의뢰·세력 퀘스트·탐험)로 장비와 스킬을 보강한 뒤 재도전하는 것이 정석입니다.</p>
     </div>
     <div class="card">
       <span class="tag">DLC</span>
@@ -325,9 +374,9 @@
   <div class="foot-inner">
     <strong style="color:var(--sand)">출처 (Sources)</strong>
     <ul class="src-list">
-      <li><a href="https://game8.co/games/Crimson-Desert/archives/582136" target="_blank" rel="noopener">Game8 — All Main Quests and Chapters</a></li>
+      <li><a href="https://vulkk.com/2026/04/19/crimson-desert-main-story-walkthrough/" target="_blank" rel="noopener">VULKK — Main Story Walkthrough (세부 퀘스트 전체)</a></li>
       <li><a href="https://www.powerpyx.com/crimson-desert-walkthrough-all-main-quests/" target="_blank" rel="noopener">PowerPyx — Walkthrough All Main Quests</a></li>
-      <li><a href="https://vulkk.com/2026/04/19/crimson-desert-main-story-walkthrough/" target="_blank" rel="noopener">VULKK — Main Story Walkthrough</a></li>
+      <li><a href="https://game8.co/games/Crimson-Desert/archives/582136" target="_blank" rel="noopener">Game8 — All Main Quests and Chapters</a></li>
       <li><a href="https://crimsondesertwiki.net/articles/main-story-walkthrough-all-chapters" target="_blank" rel="noopener">Crimson Desert Wiki — All 12 Chapters</a></li>
     </ul>
     <p>퀘스트명은 글로벌(영문판) 기준이며 한국어 표기는 참고용 번역입니다. 비공식 팬 정보 페이지 · Crimson Desert™ © Pearl Abyss.<br>

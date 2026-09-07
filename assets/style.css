@@ -217,6 +217,9 @@ ul.qlist li::before{
 }
 ul.qlist li strong{color:var(--text)}
 ul.qlist li .qn{color:var(--text-faint);font-size:12.5px;margin-left:8px}
+ul.qlist li .qsteps{display:block;color:var(--text-faint);font-size:12.5px;line-height:1.7;margin-top:3px}
+.ch-boss{color:var(--text-dim);font-size:13.5px;padding-top:12px;border-top:1px dashed rgba(58,42,36,.6);margin-top:12px}
+.ch-boss strong{color:var(--crimson-bright)}
 @media (max-width:640px){.ch-body{padding-left:22px}}
 
 /* ---------- Footer ---------- */
