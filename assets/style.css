@@ -218,6 +218,8 @@ ul.qlist li::before{
 ul.qlist li strong{color:var(--text)}
 ul.qlist li .qn{color:var(--text-faint);font-size:12.5px;margin-left:8px}
 ul.qlist li .qsteps{display:block;color:var(--text-faint);font-size:12.5px;line-height:1.7;margin-top:3px}
+ul.qlist li .qdetail{display:block;color:var(--text-dim);font-size:13.5px;line-height:1.75;margin-top:8px;padding:10px 14px;background:var(--bg-2);border-left:2px solid rgba(212,165,85,.4);border-radius:0 8px 8px 0}
+ul.qlist li .qdetail .rw{color:var(--gold)}
 .ch-boss{color:var(--text-dim);font-size:13.5px;padding-top:12px;border-top:1px dashed rgba(58,42,36,.6);margin-top:12px}
 .ch-boss strong{color:var(--crimson-bright)}
 @media (max-width:640px){.ch-body{padding-left:22px}}
