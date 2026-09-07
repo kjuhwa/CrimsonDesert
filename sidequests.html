@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>사이드 퀘스트 — 붉은 사막</title>
+<meta name="description" content="붉은 사막(Crimson Desert) 사이드 퀘스트 데이터베이스 — 세력 퀘스트, 의뢰(커미션), 인벤토리 확장, 추천 퀘스트 체인">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo en" href="index.html">CRIMSON DESERT</a>
+    <a href="index.html">홈</a>
+    <a href="quests.html">퀘스트</a>
+    <a href="sidequests.html" class="active">사이드 퀘스트</a>
+    <a href="items.html">아이템</a>
+    <a href="bosses.html">보스</a>
+    <a href="regions.html">지역</a>
+    <a href="skills.html">스킬</a>
+    <a href="#factions">세력 퀘스트</a>
+    <a href="#commissions">의뢰</a>
+    <a href="#best">추천 체인</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <span class="hero-kicker en">Side Content</span>
+  <h1>사이드 퀘스트</h1>
+  <div class="hero-en en">FACTION QUESTS &amp; COMMISSIONS</div>
+  <p class="hero-desc">파이웰의 정치와 일상에 얽힌 세력 퀘스트부터 인벤토리를 넓혀주는 의뢰까지 — 메인 스토리 밖의 콘텐츠 총정리.</p>
+</header>
+
+<main>
+
+<section id="side-overview">
+  <h2>사이드 콘텐츠 개요</h2>
+  <div class="sub en">Overview</div>
+  <div class="scores">
+    <div class="score"><div class="num red">16+</div><div class="lbl">퀘스트 제공 세력(팩션)</div></div>
+    <div class="score"><div class="num">63</div><div class="lbl">헤르난드 지역 의뢰</div></div>
+    <div class="score"><div class="num">60 / 13</div><div class="lbl">최대 아이템 / 장비 슬롯</div></div>
+    <div class="score"><div class="num red">Ch.3~</div><div class="lbl">캠프 건설 체인 시작</div></div>
+  </div>
+  <p class="lead">
+    붉은 사막의 사이드 콘텐츠는 <strong>세력(팩션) 퀘스트</strong>가 중심입니다. 각 세력은 고유한 스토리라인과
+    등장인물, 보상 트랙을 갖고 있으며, 제작 재료·엘릭서·희귀 장비·<strong>어비스 유물</strong>(스킬 포인트 재화,
+    <a href="skills.html" style="color:var(--gold)">스킬</a> 참고)과 지역 공헌도를 보상으로 줍니다.
+    퀘스트 메뉴에서 <strong>세력별 필터</strong>로 정리해 볼 수 있습니다.
+  </p>
+</section>
+
+<section id="factions">
+  <h2>세력(팩션) 퀘스트</h2>
+  <div class="sub en">Faction Quests</div>
+  <p class="lead">대표 세력과 특징입니다. 세력·퀘스트명은 글로벌(영문판) 기준이며 한국어 표기는 참고용 번역입니다.</p>
+  <div class="tbl-wrap">
+    <table class="items">
+      <thead>
+        <tr><th>세력</th><th>테마</th><th>대표 퀘스트 · 보상</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>흩어진 불씨<span class="sub-en">Scattered Embers</span></td>
+          <td>동료들의 개인 서사</td>
+          <td>가장 가까운 동료들의 뒷이야기와 개인적 사연을 다루는 서사 중심 퀘스트. 물질 보상은 적지만 <strong>스토리 몰입에 최고</strong>. 대표: Brightening the Spirits</td>
+        </tr>
+        <tr>
+          <td>해돋이의 땅<span class="sub-en">Grounds of the Sunrise</span></td>
+          <td>초반 성장 보상</td>
+          <td>초반 보상이 알찬 세력. Embers of Return 퀘스트는 <strong>어비스 유물 2개</strong> 지급</td>
+        </tr>
+        <tr>
+          <td>회색갈기 의뢰<span class="sub-en">Greymane Commissions</span></td>
+          <td>자원 수집</td>
+          <td>캠프 운영과 연계된 7개의 의뢰 퀘스트</td>
+        </tr>
+        <tr>
+          <td>셀레스트 가문<span class="sub-en">House Celeste</span></td>
+          <td>현상금 사냥</td>
+          <td>현상수배 사냥 퀘스트 라인. 대표: Warren (실버 25)</td>
+        </tr>
+        <tr>
+          <td>로버츠 가문<span class="sub-en">House Roberts</span></td>
+          <td>고가치 보상</td>
+          <td>Estate in Dismay — <strong>금맥 지도와 희귀 장비</strong> 등 최상급 보상</td>
+        </tr>
+        <tr>
+          <td>헤르난드 의뢰·요청<span class="sub-en">Hernand Commissions / Requests</span></td>
+          <td>최대 규모 퀘스트 풀</td>
+          <td>자원 전달·탐험 중심. 대표: Turnali's Request, Goddess of Abundance. 철광석·목재·보리·천 조각 등 <strong>제작 재료를 꾸준히 공급</strong></td>
+        </tr>
+        <tr>
+          <td>헤르난드의 정치<span class="sub-en">Hernand's Politics</span></td>
+          <td>정치적 음모</td>
+          <td>도시의 권력 다툼에 얽히는 퀘스트. 대표: Spire of Insight, Collapsed Stone Tower</td>
+        </tr>
+        <tr>
+          <td>골드리프 상인 길드<span class="sub-en">Goldleaf Merchant Guild</span></td>
+          <td>특수 보상</td>
+          <td>Extinguishing the Last Flames — 망토, 카운터웨이트 등 특수 장비</td>
+        </tr>
+        <tr>
+          <td>포로린 숲의 수호자<span class="sub-en">Pororin Forest Guardians</span></td>
+          <td>지역 개방</td>
+          <td>Trembling Woods 완료 시 <strong>마을 접근 해금</strong></td>
+        </tr>
+        <tr>
+          <td>마녀들<span class="sub-en">Witches</span></td>
+          <td>연금술 재료</td>
+          <td>The Witch of Wisdom — 꽃·뼈 등 <strong>연금술 재료</strong> 수급처 (<a href="items.html#consumables" style="color:var(--gold)">연금술</a> 참고)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="commissions">
+  <h2>의뢰 &amp; 인벤토리 확장</h2>
+  <div class="sub en">Commissions &amp; Inventory</div>
+  <div class="grid c3">
+    <div class="card">
+      <span class="tag">필수</span>
+      <h3>🎒 인벤토리 확장 의뢰 8개</h3>
+      <p>떠돌이 상인이 주는 <strong>확장 의뢰 8개</strong>는 각각 <strong>아이템 슬롯 +5, 장비 슬롯 +1</strong>을 줍니다.
+      전부 완료하면 <strong>최대 아이템 60칸 / 장비 13칸</strong> — 가장 먼저 챙겨야 할 사이드 콘텐츠입니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag">파밍</span>
+      <h3>⛏️ 재료 수급 루트</h3>
+      <p>헤르난드 의뢰 63개는 철광석·목재·보리·천 조각·질긴 고기 등 <strong>제작 재료를 반복 공급</strong>합니다.
+      장비 제작·요리 재료가 부족하면 의뢰부터 도세요.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">신뢰도</span>
+      <h3>🤝 신뢰 &amp; 공헌도</h3>
+      <p>의뢰 완료는 지역 NPC의 <strong>신뢰(Trust)와 지역 공헌도</strong>를 올립니다. 신뢰도가 높아지면 상인의 특수 상품이 열립니다
+      — 예: 무스칸 격파 + 신뢰도 100 → <a href="items.html#armor" style="color:var(--gold)">사기꾼의 페도라</a> 구매 가능.</p>
+    </div>
+  </div>
+</section>
+
+<section id="best">
+  <h2>추천 퀘스트 체인</h2>
+  <div class="sub en">Best Quest Chains</div>
+  <div class="grid c2">
+    <div class="card">
+      <span class="tag">최고 평가</span>
+      <h3>🏕️ 회색갈기 캠프 건설 체인</h3>
+      <p>
+        <strong>게임 최고의 사이드 퀘스트 체인</strong>으로 꼽힙니다. 3장 무렵 캠프를 세우면서 시작되며,
+        황량한 언덕을 <strong>대장간·요리·상점을 갖춘 풀서비스 거점</strong>으로 성장시켜 갑니다.
+        메인 스토리(<a href="quests.html" style="color:var(--gold)">3장 '울부짖는 언덕'</a>)와 자연스럽게 이어지므로 놓치지 마세요.
+      </p>
+    </div>
+    <div class="card">
+      <span class="tag">서사</span>
+      <h3>💬 흩어진 불씨 (동료 퀘스트)</h3>
+      <p>
+        동료들의 과거와 개인적 이야기를 풀어내는 서사 중심 체인. 물질 보상은 거의 없지만
+        회색갈기 멤버들에 대한 애정이 생기는, <strong>스토리를 아끼는 플레이어라면 필수</strong>인 콘텐츠입니다.
+      </p>
+    </div>
+    <div class="card">
+      <span class="tag gold">보상</span>
+      <h3>💰 로버츠 가문 체인</h3>
+      <p>
+        Estate in Dismay를 포함해 <strong>금맥 지도, 희귀 장비</strong> 등 물질 보상이 가장 굵직한 세력.
+        자금과 장비가 아쉬운 중반 타이밍에 우선 추천합니다.
+      </p>
+    </div>
+    <div class="card">
+      <span class="tag gold">주의</span>
+      <h3>⚠️ 데메니스 세력 선택</h3>
+      <p>
+        <a href="regions.html" style="color:var(--gold)">데메니스</a>에서의 세력 선택은
+        <strong>이후 사이드 퀘스트 접근을 영구적으로 갈라놓습니다</strong>.
+        한 회차에 모든 세력 퀘스트를 볼 수 없으니, 선택 전에 어느 쪽 이야기를 따라갈지 정하세요.
+      </p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <strong style="color:var(--sand)">출처 (Sources)</strong>
+    <ul class="src-list">
+      <li><a href="https://games.gg/crimson-desert/guides/crimson-desert-faction-quests-guide/" target="_blank" rel="noopener">games.gg — Faction Quests Guide</a></li>
+      <li><a href="https://games.gg/crimson-desert/guides/crimson-desert-all-hernand-commissions/" target="_blank" rel="noopener">games.gg — All Hernand Commissions</a></li>
+      <li><a href="https://crimsondesertwiki.net/articles/side-quests-faction-quests-best-rewards-guide" target="_blank" rel="noopener">Crimson Desert Wiki — Side &amp; Faction Quests</a></li>
+      <li><a href="https://crimsondeserthq.com/blog/best-side-quests" target="_blank" rel="noopener">Crimson Desert HQ — Best Side Quests</a></li>
+      <li><a href="https://osrsguru.com/guides/crimson-desert/crimson-desert-commission-bounty-guide-2026.html" target="_blank" rel="noopener">CD Guru — Commission &amp; Bounty Guide</a></li>
+    </ul>
+    <p>세력·퀘스트명은 글로벌(영문판) 기준이며 한국어 표기는 참고용 번역입니다. 비공식 팬 정보 페이지 · Crimson Desert™ © Pearl Abyss.<br>
+    최종 업데이트: 2026-09-07 · <a href="index.html">← 메인으로</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>스킬 트리 — 붉은 사막</title>
+<meta name="description" content="붉은 사막(Crimson Desert) 스킬 트리 가이드 — 3색 브랜치 구조, 어비스 유물, 추천 스킬 순서, 성좌 시스템">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo en" href="index.html">CRIMSON DESERT</a>
+    <a href="index.html">홈</a>
+    <a href="quests.html">퀘스트</a>
+    <a href="sidequests.html">사이드 퀘스트</a>
+    <a href="items.html">아이템</a>
+    <a href="bosses.html">보스</a>
+    <a href="regions.html">지역</a>
+    <a href="skills.html" class="active">스킬</a>
+    <a href="#branches">3색 브랜치</a>
+    <a href="#notable">핵심 스킬</a>
+    <a href="#priority">추천 순서</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <span class="hero-kicker en">Skill Tree</span>
+  <h1>스킬 트리</h1>
+  <div class="hero-en en">SKILLS &amp; PROGRESSION</div>
+  <p class="hero-desc">경험치 레벨업 대신 '어비스 유물'로 해금하는 삼각형 스킬 트리 — 구조와 핵심 스킬, 투자 우선순위 정리.</p>
+</header>
+
+<main>
+
+<section id="skill-system">
+  <h2>성장 시스템 개요</h2>
+  <div class="sub en">Progression System</div>
+  <p class="lead">
+    붉은 사막은 전통적인 경험치 기반 레벨업 대신, <strong>어비스 유물(Abyss Artifacts)</strong>이라는 재화를
+    삼각형 스킬 트리의 노드에 투자해 전투 능력·스탯·이동 스킬을 해금하는 방식을 씁니다.
+  </p>
+  <div class="grid c3">
+    <div class="card">
+      <span class="tag">재화</span>
+      <h3>🔮 어비스 유물</h3>
+      <p>보스 처치, 파이웰 곳곳의 <strong>봉인된 유물 도전</strong>, 퀘스트 완료, 탐험으로 획득합니다.
+      <a href="sidequests.html" style="color:var(--gold)">세력 퀘스트</a> 일부도 어비스 유물을 직접 보상으로 줍니다.</p>
+    </div>
+    <div class="card">
+      <span class="tag">무료 습득</span>
+      <h3>👁️ 보고 배우기 (Watch &amp; Learn)</h3>
+      <p>특정 적이나 정령 안내자의 기술을 관찰하면 <strong>시간이 느려지며 스킬을 무료로 습득</strong>하는 기회가 발생합니다.
+      전투 중 연출이 뜨면 놓치지 마세요.</p>
+    </div>
+    <div class="card">
+      <span class="tag gold">리스펙</span>
+      <h3>🌳 엘더트리 재분배</h3>
+      <p>헤르난드의 <strong>엘더트리</strong>에서 <strong>테르니 유물</strong>(수량 제한)로 스킬 재분배가 가능합니다.
+      무제한이 아니므로 큰 투자 전에 계획을 세우세요.</p>
+    </div>
+  </div>
+</section>
+
+<section id="branches">
+  <h2>3색 브랜치 구조</h2>
+  <div class="sub en">Blue · Green · Red Branches</div>
+  <p class="lead">스킬 화면은 세 가지 색상 브랜치가 <strong>삼각형</strong>을 이루는 형태입니다. 스킬명은 글로벌(영문판) 기준입니다.</p>
+  <div class="grid c3">
+    <div class="card">
+      <span class="tag" style="color:#5dade2;background:rgba(93,173,226,.10);border-color:rgba(93,173,226,.35)">BLUE · 기력</span>
+      <h3>⚔️ 청색 — 기력(Stamina) 트리</h3>
+      <p>
+        물리 전투와 움직임을 관장합니다. 무기 전투·발차기·잡기·궁술·맨손 격투 계열.<br><br>
+        · <strong>Armed Combat</strong> — 핵심(Keystone) 스킬. 공격 키트의 근간인 <strong>Evasive Slash · Rush · Charge</strong>를 해금<br>
+        · <strong>Turned Slash</strong> — 방어구 관통 강화가 가능한 강력한 광역 제압기
+      </p>
+    </div>
+    <div class="card">
+      <span class="tag" style="color:#58d68d;background:rgba(88,214,141,.10);border-color:rgba(88,214,141,.35)">GREEN · 정신력</span>
+      <h3>🛡️ 녹색 — 정신력(Spirit) 트리</h3>
+      <p>
+        패링·카운터·회피 등 방어와 반격 기술의 중심입니다.<br><br>
+        · <strong>Keen Senses</strong> — <strong>게임에서 가장 중요한 방어 스킬</strong>로 꼽힘. 3레벨까지 올리면 회피·카운터 메커니즘 개방<br>
+        · <strong>Force Palm</strong> — 정예 적을 스턴 → 마무리 콤보로 잇는 핵심 연계기 (최종 보스전에서도 사용)
+      </p>
+    </div>
+    <div class="card">
+      <span class="tag">RED · 생명력</span>
+      <h3>❤️ 적색 — 생명력(Health) 트리</h3>
+      <p>
+        생존력·원소 강화·공중 기동을 담당하는 가장 짧은 브랜치입니다.<br><br>
+        · <strong>Swift Flight</strong> — 초반 최우선 투자처. 활강/비행 이동은 탐험과 전투 접근 모두에서 압도적<br>
+        · 원소 스킬 — <strong>Storm Veil · Lightning Surge · Flame Strike · Frost Mantle</strong> 등 무기에 속성 부여<br>
+        · 퍼즐 해결용 유틸리티 스킬 포함
+      </p>
+    </div>
+  </div>
+  <p class="lead" style="margin-top:24px">
+    ⭐ <strong>수렴(Convergence) 스킬 — Falling Palm</strong>: 한 브랜치를 <strong>완전히 완성하면</strong> 해금되는 궁극기.
+    낙하의 힘과 남은 기력 전부를 실어 <strong>단 한 번의 파괴적인 지면 강타</strong>로 쏟아붓습니다.
+  </p>
+</section>
+
+<section id="notable">
+  <h2>핵심 스킬 정리</h2>
+  <div class="sub en">Notable Skills</div>
+  <div class="tbl-wrap">
+    <table class="items">
+      <thead>
+        <tr><th>스킬</th><th>브랜치</th><th>효과 · 평가</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>암드 컴뱃<span class="sub-en">Armed Combat</span></td>
+          <td>청색</td>
+          <td><strong>키스톤 스킬</strong> — Evasive Slash, Rush, Charge 해금. 공격 빌드의 출발점</td>
+        </tr>
+        <tr>
+          <td>킨 센시스<span class="sub-en">Keen Senses</span></td>
+          <td>녹색</td>
+          <td><strong>최중요 방어 스킬</strong> — 3레벨에서 회피·카운터 개방. 보스전 생존의 근간</td>
+        </tr>
+        <tr>
+          <td>스위프트 플라이트<span class="sub-en">Swift Flight</span></td>
+          <td>적색</td>
+          <td>활강 이동 — <strong>초반 어비스 유물 투자 1순위</strong>. 공중 접근 각은 대부분의 적에게 대응 불가</td>
+        </tr>
+        <tr>
+          <td>포스 팜<span class="sub-en">Force Palm</span></td>
+          <td>녹색</td>
+          <td>정예 적 스턴 → 마무리 연계. <a href="bosses.html#story-bosses" style="color:var(--gold)">최종 보스 움브라</a>전 핵심 기술</td>
+        </tr>
+        <tr>
+          <td>턴드 슬래시<span class="sub-en">Turned Slash</span></td>
+          <td>청색</td>
+          <td>강력한 군중 제어기 — 방어구 관통 업그레이드 지원</td>
+        </tr>
+        <tr>
+          <td>네이처스 에코<span class="sub-en">Nature's Echo</span></td>
+          <td>—</td>
+          <td>스킬 트리에서 얻을 수 있는 <strong>최대의 피해 증폭기</strong>. 딜 빌드 필수</td>
+        </tr>
+        <tr>
+          <td>원소 스킬군<span class="sub-en">Storm Veil · Lightning Surge · Flame Strike · Frost Mantle</span></td>
+          <td>적색</td>
+          <td>중후반 필수 — 무기에 속성 피해 부여. 속성 저항 <a href="items.html#armor" style="color:var(--gold)">쿠쿠 갑옷</a>과 함께 속성전 대비의 양축</td>
+        </tr>
+        <tr>
+          <td>폴링 팜<span class="sub-en">Falling Palm</span></td>
+          <td>수렴</td>
+          <td>브랜치 1개 완성 시 해금 — 남은 기력 전부를 쏟는 궁극의 지면 강타</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="priority">
+  <h2>투자 우선순위</h2>
+  <div class="sub en">Recommended Priority</div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-date">초반 (1~3장)</div>
+      <h3>기본기 확보</h3>
+      <p><strong>Armed Combat</strong>(공격 키트) → <strong>Swift Flight</strong>(활강) → <strong>Keen Senses 3레벨</strong>(회피·카운터).
+      이 셋이면 초반 콘텐츠 전부를 무리 없이 소화합니다.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">중반 (4~7장)</div>
+      <h3>연계기 &amp; 제압기</h3>
+      <p><strong>Force Palm</strong>(정예 스턴 연계)과 <strong>Turned Slash</strong>(광역 제압)로 전투 폭을 넓히세요.
+      보스 러시 구간(<a href="bosses.html" style="color:var(--gold)">카일록·리드 데빌·케아루쉬</a>) 대비가 됩니다.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">후반 (8장~)</div>
+      <h3>원소 &amp; 증폭</h3>
+      <p>원소 스킬(<strong>Storm Veil · Lightning Surge · Flame Strike / Frost Mantle</strong>)과
+      최대 증폭기 <strong>Nature's Echo</strong>를 확보하고, 한 브랜치를 완성해 <strong>Falling Palm</strong>을 해금하세요.</p>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-date">엔드게임</div>
+      <h3>성좌(Constellation) 트리</h3>
+      <p><a href="regions.html#abyss" style="color:var(--gold)">어비스</a>에서 모은 <strong>어비스 코어</strong>로
+      성좌 스킬 트리를 강화하는 병행 성장 시스템이 열립니다. 어비스 파밍이 곧 엔드게임 성장 루트입니다.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <strong style="color:var(--sand)">출처 (Sources)</strong>
+    <ul class="src-list">
+      <li><a href="https://8bittoast.com/crimson-desert-skills/" target="_blank" rel="noopener">8BitToast — Skill Tree: All Skills Explained</a></li>
+      <li><a href="https://game8.co/games/Crimson-Desert/archives/585471" target="_blank" rel="noopener">Game8 — List of All Skills</a></li>
+      <li><a href="https://www.method.gg/crimson-desert/crimson-desert-the-best-starter-skills-to-unlock" target="_blank" rel="noopener">Method — Best Starter Skills</a></li>
+      <li><a href="https://www.gamespot.com/gallery/crimson-desert-best-skills-abilities-guide/2900-7622/" target="_blank" rel="noopener">GameSpot — Best Skills &amp; Abilities</a></li>
+      <li><a href="https://www.slashskill.com/crimson-desert-best-skills-every-ability-worth-your-abyss-artifacts/" target="_blank" rel="noopener">SlashSkill — Every Ability Worth Your Abyss Artifacts</a></li>
+    </ul>
+    <p>스킬명은 글로벌(영문판) 기준이며 한국어 표기는 참고용 음차입니다. 비공식 팬 정보 페이지 · Crimson Desert™ © Pearl Abyss.<br>
+    최종 업데이트: 2026-09-07 · <a href="index.html">← 메인으로</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
